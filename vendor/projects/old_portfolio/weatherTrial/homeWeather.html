@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>WeatherAPP</title>
+		<link rel="stylesheet" type="text/css" href="weather.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+	<p id="title"><strong style="color:#1C1C1C">WEATHER </strong>DETECTOR</p>
+	<input id="enterCity" type="text" name="article" placeholder=" City">
+	<input id="submit" type="button" value="submit">
+	<div id="currentButton">Get Local Weather</div>
+	<div id="displayArea">
+		<div id="displayCity">
+		</div>
+				<p id="city"></p>
+				<p id="date"></p><br><br>
+				<p id="cityDescription"></p>
+				<img id="icon">
+				<p id="cityTemp"></p>
+				<p id="max"></p>
+				<p id="min"></p>
+
+		
+		<div id="celcius">
+			<p>C</p>
+		</div>
+		<div id="fahren">
+			<p>F</p>
+		</div>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="weather.js"></script>
+	</body>
+</html>

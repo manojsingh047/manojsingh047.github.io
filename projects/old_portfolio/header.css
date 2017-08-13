@@ -1,0 +1,64 @@
+html
+{
+	font-size: 8px; 
+}
+
+.navbar{
+	margin-bottom: -2px;
+    position: relative;
+    margin-bottom:-2px; 
+    opacity: 0.9;	
+    position:relative;  
+}
+
+
+
+#titleHeader{
+	color:#DBCCC8;
+	font-family:Orbitron, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+}
+
+#titleHeader span{
+	color:#CD380F;
+}
+
+.list{
+	font-family:Orbitron, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	
+	padding-left:3px;
+	padding-right:3px;
+	color:white;
+}
+
+@media only screen and (max-width: 750px) 
+{
+	#titleHeader
+	{
+		font-size: 20px;
+		
+	}
+	.list{
+
+	font-size:15px;
+	
+}
+	
+}
+@media only screen and (max-width: 550px) 
+{
+	#titleHeader
+	{
+		font-size: 15px;
+
+	}
+	.list{
+	
+	font-size:12px;
+	
+}
+	
+}

@@ -1,0 +1,157 @@
+body { 
+  background: url(images/home.jpg) no-repeat center center fixed blue; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title{
+	    font-family: Raleway;
+    font-size: 50px;
+    color: #E6D72A;
+    font-weight: bold;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .6);
+    text-align: center;
+    margin-left: 161px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#enterCity{    
+	    width: 204px;
+    height: 44px;
+    border-radius: 20px;
+    font-family: Montserrat;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+#displayCity{
+	height: 290px;
+	width: 480px;
+	border-radius:1px 100px 1px ;
+	background-color: black;
+	opacity: 0.5;
+	margin-top: 80px;
+	margin-left: 370px;
+}
+#celcius{
+       height: 40px;
+    width: 50px;
+    border-radius: 1px 14px 1px;
+    background-color: black;
+    opacity: 0.5;
+    margin-left: 850px;
+    margin-top: -41px;
+    position: absolute;
+}
+
+
+#fahren > p, #celcius > p{
+	padding-left: 18px;
+    font-size: 30px;
+    font-family: Engagement;
+    color: white;
+}
+#fahren{
+	    height: 40px;
+    width: 50px;
+    border-radius: 14px 0px 14px 0px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: -81px;
+    margin-left: 850px;
+    position: absolute;
+}
+#fahren:hover{
+	background-color: #FACC2E;
+}
+#celcius:hover{
+	background-color: #58D3F7;
+}
+
+#city{
+    margin-left: 400px;
+    padding-top: -1%;
+    font-size: 30px;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;
+    margin-top: -252px;
+    position: absolute;
+}
+#date{
+	    font-size: 17px;
+    font-family: Verdana;
+    color: white;
+    margin-left: 401px;
+    font-weight: bold;
+    position: absolute;
+        margin-top: -212px;
+
+}
+
+
+#cityDescription{
+	    font-size: 24px;
+    font-family: Verdana;
+    color: white;
+    margin-left: 401px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -193px;
+}
+
+#icon{
+       vertical-align: middle;
+    margin-left: 397px;
+    height: 60px;
+    position: absolute;
+    margin-top: -156px;
+}
+#cityTemp{
+	    font-size: 43px;
+    font-family: Verdana;
+    color: white;
+    margin-left: 596px;
+    margin-top: -172px;
+    font-weight: bold;
+    position: absolute;
+}
+#max{
+	    font-size: 23px;
+    font-family: Verdana;
+    color: white;
+    margin-left: 723px;
+    margin-top: -177px;
+    font-weight: bold;
+    position: absolute;
+}
+#min{
+	     font-size: 22px;
+    font-family: Verdana;
+    color: white;
+    margin-left: 723px;
+    margin-top: -135px;
+    font-weight: bold;
+    position: absolute;
+}
+#currentButton{
+        width: 160px;
+    height: 30px;
+    margin-left: 1013px;
+    margin-top: -39px;
+    text-align: center;
+    background: #009FFF;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 0 2px 2px;
+    opacity: 0.6;
+    padding-top: 3px;
+}
+#currentButton:hover{
+    opacity: 1;
+}
