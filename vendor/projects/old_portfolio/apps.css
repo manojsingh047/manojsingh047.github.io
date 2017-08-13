@@ -1,0 +1,118 @@
+.blankWhite{
+	height:20%;
+}
+
+
+.blackWhite{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+table{
+	margin-top:4%;
+	table-layout: fixed;
+}
+table tr td{
+	padding-bottom:10%;
+	padding-left:2%;
+	padding-right:2%;
+}
+table tr td p{
+	padding-bottom:10%;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+
+#massData, #weatherDetector, #quoteGenerator, #twitchStreamers, #calculator, #nameApp6
+{
+	position:absolute;
+	font-family: Halant, Verdana;
+	font-size:30px;
+	display:none;
+	position:absolute;
+	color: black;
+	font-weight: bold;
+
+}
+
+#massData
+{
+	padding-left: 5%;
+}
+
+#calculator
+{
+	padding-left: 5%;
+}
+#nameApp6
+{
+	padding-left: 4%;
+	
+}
+
+.apps{
+	border:11px solid #BDBDBD;
+	border-radius:50%;
+	box-shadow: 4px 6px 6px 3px black;
+	width: 100%;
+	
+}
+.apps:hover{
+	border:11px solid #151515;
+	border-radius:50%;
+	
+}
+.divApps{
+
+	font-size: 5px;
+}
+#blur{
+	background-image: url(images/apps/brick3.jpg);
+}
+@media only screen and (max-width: 750px) 
+{
+	#massData, #weatherDetector, #quoteGenerator, #twitchStreamers, #calculator, #nameApp6
+	{
+	
+	font-size:20px;
+	
+	}
+	.apps{
+	border:7px solid #BDBDBD;
+	border-radius:50%;
+	}
+	.apps:hover{
+	border:7px solid #151515;
+	border-radius:50%;
+	
+	}
+
+}
+@media only screen and (max-width: 550px) 
+{
+	#massData, #weatherDetector, #quoteGenerator, #twitchStreamers, #calculator, #nameApp6
+	{
+	
+	font-size:10px;
+	
+	}
+	.apps{
+	border:5px solid #BDBDBD;
+	border-radius:50%;
+	}
+	.apps:hover{
+	border:5px solid #151515;
+	border-radius:50%;
+	}
+}
+
+@media only screen and (max-width: 334px) 
+{
+	
+#massData, #weatherDetector, #quoteGenerator, #twitchStreamers, #calculator, #nameApp6
+{
+	font-size: 9px;
+
+}
+}

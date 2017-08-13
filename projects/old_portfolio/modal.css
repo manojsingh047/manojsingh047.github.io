@@ -1,0 +1,169 @@
+
+#modal1 > div
+{
+	width: 45%;
+}
+
+#modal1 > div > div > .modal-header > p
+{
+	color:white;
+	font-size: 4em;
+}
+#modal1 > div > div > .modal-header
+{
+	padding:2% 5%; 
+	background-color:#446FAC;
+	font-size: 7px;
+}
+
+#modal1 > div > div > .modal-body
+{
+	padding:4% 5%; 
+}
+#closeRed1{
+	margin-left: 0%;
+}
+#successGreen{
+	margin-left: 30%;
+}
+
+
+.description > p
+{
+	padding-top: 10%;
+	font-size: 3em;	
+}
+.description
+{
+	font-size: 6px;
+}
+
+#closeRed1{
+	margin-left:30%;
+	 }
+#successGreen{
+	margin-left: 20%;
+}
+
+
+#closeRed2{
+	position: absolute;
+    margin-left: -54%;
+    margin-top: -3%;
+}
+
+#description2{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: Volkhov, Arial;
+	text-align: justify;
+	text-justify:inter-word;
+}
+#modalTitle2{
+	font-family: Candal, Arial;
+	padding-left: 5%;
+
+}
+@media only screen and (max-width: 750px) 
+{
+	
+	#closeRed1 {
+		font-size: 16px;
+	}
+	#closeRed2{
+	   
+    font-size: 14px;
+    margin-top: -5%;
+	}
+	.description
+	{
+		font-size: 4px;
+	}
+	#modal1 > div > div > .modal-header
+	{
+		font-size: 5px;
+	}
+
+
+}
+@media only screen and (max-width: 550px) 
+{
+	
+	#closeRed1 {
+		font-size: 12px;
+	}
+	#closeRed2{
+	   
+    font-size: 10px;
+    width: 60px;
+    margin-left: -60%;
+    margin-top: -7%;
+	}
+
+	.description
+	{
+		font-size: 3px;
+	}
+	
+	#modal1 > div > div > .modal-header
+	{
+		font-size: 4px;
+	}	
+	#closeRed1{
+		display: none;
+	}
+	#successGreen{
+		font-size: 10px;
+		width: 100px;
+	}
+	#modalTitle2{
+		font-size: 20px;
+	}
+	#description2{
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 334px) 
+{
+
+	#closeRed2{
+	   
+    font-size: 10px;
+    width: 60px;
+    margin-left: -65%;
+    margin-top: -7%;
+	}
+
+	.description
+	{
+		font-size: 3px;
+	}
+	
+	#modal1 > div > div > .modal-header
+	{
+		font-size: 4px;
+	}	
+	#closeRed1{
+		display: none;
+	}
+	#successGreen{
+		font-size: 10px;
+		width: 100px;
+		margin-left: 8%;
+	}
+	#modalTitle2{
+		font-size: 20px;
+	}
+	#description2{
+		font-size: 10px;
+	}
+	#modalTitle{
+	font-size: 12px;	
+	}
+	#modalImage{
+		width: 80%;
+		height: 80%;
+		padding-left: 21%;
+	}
+}
