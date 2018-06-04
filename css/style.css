@@ -11,7 +11,7 @@ body{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
     position: relative;
-    
+
 }
 p{  font-size: 16px;    }
 
@@ -57,13 +57,19 @@ hr{
     height: 2px;
     /* Set the hr color */
     color:#EAECEE; /* old IE */
-    background-color:#EAECEE; 
+    background-color:#EAECEE;
     margin:0;
 }
 
 
 ul li{
     list-style: none;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
 }
 
 /******************HEADER****************/
@@ -79,9 +85,14 @@ ul li{
     margin-right: 2%;
     font-size: 16px;
 }
+.header-top ul li #heading{
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
 .header-top a{
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .header-top :hover{
     cursor: pointer;
@@ -101,7 +112,7 @@ ul li{
     line-height: 300%;
 }
 .my-details{
-    background: rgba(0,0,0,0.5);    
+    background: rgba(0,0,0,0.5);
     padding:5% 0;
 }
 #my-image{
@@ -115,10 +126,10 @@ ul li{
 
 .my-details ul{
     float: left;
-    padding: 0;    
+    padding: 0;
 }
 .my-details{
-    letter-spacing: 0.5px; 
+    letter-spacing: 0.5px;
 }
 
 
@@ -177,7 +188,7 @@ hr.divider{
 letter-spacing: 0.2em;
     font-family: Acme, 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #18BC9C;
-    
+
 }
 
 .vertical-divider .col-xs-6{
@@ -186,21 +197,13 @@ letter-spacing: 0.2em;
 
 
 
-#front-end, #unix{
-    text-align: left;
+#front-end, #unix,
+#back-end,#freecodecamp{
     line-height: 2em;
 }
-#freecodecamp{
-    text-align: right;
-    line-height: 2em;   
-}
-#freecodecamp > p, #front-end > p , #unix > p{
-     text-justify: inter-word;
+#back-end > p, #freecodecamp > p, #front-end > p , #unix > p{
+    text-justify: inter-word;
     text-align: justify;
-}
-#freecodecamp p{
-    text-align: right;
-    line-height: 2em;   
 }
 
 /*********************ABOUT ME**************************/
@@ -209,22 +212,22 @@ letter-spacing: 0.2em;
     margin-top: 6%;
 }
 .about{
-        text-align: center;    
+        text-align: center;
         color: #18BC9C;
             font-family: Acme, 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 
 }
 .about i{
-       text-align: center;    
+       text-align: center;
        color:#566573;
        margin: 0 3%;
 }
 .aboutme-detail{
     margin: 5% 0 4% 0;
-       text-align: center; 
+       text-align: center;
            font-family: Acme, 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2px;   
+    letter-spacing: 2px;
 }
 .about-me .container-fluid {
     padding: 0;
@@ -366,7 +369,7 @@ letter-spacing: 0.2em;
 .skill-pad-js{padding: 7.5px 28px 7.5px 30px;}
 .skill-pad-git{padding: 7.5px 96px 7.5px 30px;}
 
-.skill-value{ 
+.skill-value{
   font-size: 20px;
   line-height: 35px;
   font-family: Acme,'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -424,7 +427,7 @@ letter-spacing: 0.2em;
         letter-spacing: 2px;
 }
 .contact-me{
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 .contact-form h4{
     display: inline;
@@ -550,7 +553,7 @@ footer .row{
     position: absolute;
     top: 0;
     right: 0;
-    
+
     color: #fff;
 }
 
@@ -575,7 +578,7 @@ footer .row{
 }
 .portfolio-modal .modal-content img {
   margin: 30px auto;
-  
+
 }
 
 .portfolio-modal .modal-content .container{

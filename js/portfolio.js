@@ -7,7 +7,7 @@ $(window).load(function() {
 
 // PIE CHART *****************
 			$(document).ready(function () {
-				$('#html-css').pieChart({
+				$('.pie-title-center').pieChart({
 					barColor: '#10A7AF',
 					trackColor: '#fff',
 					lineCap: 'round',
@@ -16,56 +16,7 @@ $(window).load(function() {
 						$(this.element).find('.pie-value').text(Math.round(percent) + '%');
 					}
 				});
-
-				$('#javascript').pieChart({
-					barColor: '#10A7AF',
-					trackColor: '#fff',
-					lineCap: 'butt',
-					lineWidth: 8,
-					onStep: function (from, to, percent) {
-						$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-					}
-				});
-                
-				$('#git').pieChart({
-					barColor: '#10A7AF',
-					trackColor: '#fff',
-					lineCap: 'butt',
-					lineWidth: 8,
-					onStep: function (from, to, percent) {
-						$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-					}
-				});
-                $('#jquery').pieChart({
-					barColor: '#10A7AF',
-					trackColor: '#fff',
-					lineCap: 'butt',
-					lineWidth: 8,
-					onStep: function (from, to, percent) {
-						$(this.element).find('.pie-value').text(Math.round(percent) + '%');
-					}
-				});
-
-				
 			});
-
-
-// SMOOTH - SCROLLING******************
-
-// $(function() {
-//   $('a[href*="#"]:not([href="#"])').click(function() {
-//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-//       var target = $(this.hash);
-//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//       if (target.length) {
-//         $('html, body').animate({
-//           scrollTop: target.offset().top
-//         }, 1000);
-//         return false;
-//       }
-//     }
-//   });
-// });
 
 // ALTERNATE***************
 $(document).ready(function(){
@@ -85,7 +36,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -99,8 +50,3 @@ $(document).ready(function(){
 $('#print').click(function(){
 	window.print();
 });
-
-
-// PARALLAX********************* TO MANUALLY CALL PARALLAX PLUGIN
-
-// $('.parallax-window').parallax({imageSrc: 'images/back.jpg'});
