@@ -18,5 +18,9 @@
   "homepage": "https://github.com/manojsingh047/manojsingh047.github.io#readme",
   "engines": {
     "node": "8.11.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
