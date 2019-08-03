@@ -1,13 +1,32 @@
-html, body{
+html,
+body {
   height: 100%;
   width: 100%;
-  background: #040993;
-  background: -webkit-gradient(left top, right bottom, color-stop(0, #040993), color-stop(100%, #000));
-  background: linear-gradient(135deg, #040993 0, #000 100%);
+  font-family: Helvetica, Arial, sans-serif;
 }
-#app{
+#app {
+  background: #040993;
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0, #040993),
+    color-stop(100%, #000)
+  );
+  background: linear-gradient(135deg, #040993 0, #000 100%);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#bg {
   width: 100%;
   height: 100%;
   background: #000;
+}
+@import url("https://fonts.googleapis.com/css?family=Audiowide:400,700|Roboto:100,300,400");
+#details {
   color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-left: 50%;
+  font-family: 'Audiowide', cursive;
 }
