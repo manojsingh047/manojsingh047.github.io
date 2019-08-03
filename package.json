@@ -31,5 +31,8 @@
     "last 2 versions",
     "not dead",
     "> 1%"
-  ]
+  ],
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
