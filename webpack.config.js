@@ -1,3 +1,4 @@
+const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -30,6 +31,9 @@ module.exports = {
       filename: "index.html"
     })
   ],
+  output: {
+    path: path.resolve(__dirname, 'docs')
+  },
   devServer: {
     //optional
     port: 4000
