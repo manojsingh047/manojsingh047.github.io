@@ -1,11 +1,17 @@
 import "normalize.css";
+import '@fortawesome/fontawesome-free/js/fontawesome'
 import "./style.css";
 
 const app = (() => {
   const init = () => {
     initBGColorChange();
+    setContent();
   };
 
+  const setContent = () => {
+    const copyEle = document.getElementById('copyright-place');
+    copyEle.innerHTML = `No copyright issues (© ${new Date().getFullYear()})`;
+  }
   const initBGColorChange = () => {
     const appEle = document.getElementById("bg");
     const OPACITY_RANGE = {
@@ -32,7 +38,7 @@ const app = (() => {
     };
 
     const getValue = counterAction => {
-      const stepSize = 100;
+      const stepSize = 130;
       if (counterAction === COUNTER_ACTIONS.INCREMENT) {
         floatNum += stepSize;
       } else {

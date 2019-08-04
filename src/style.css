@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Montserrat:300,400&display=swap");
+
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Audiowide", cursive, Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 #app {
   background: #040993;
@@ -22,11 +25,56 @@ body {
   height: 100%;
   background: #000;
 }
-@import url("https://fonts.googleapis.com/css?family=Audiowide:400,700|Roboto:100,300,400");
 #details {
   color: #fff;
   position: absolute;
   top: 50%;
+  height: 50%;
   margin-left: 50%;
-  font-family: 'Audiowide', cursive;
+  width: 50%;
+}
+#name {
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.light-font{
+  font-family: "Montserrat", sans-serif;
+}
+.social {
+  display: flex;
+  margin: 50px 0;
+}
+.social a{
+  cursor: pointer;
+  margin-right: 30px;
+  color: rgba(255,255,255,0.4);
+  transition: 0.5s;
+  position: relative;
+  text-decoration: none;
+}
+.social a:hover{
+  color: rgba(255,255,255,1);
+}
+
+.social a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: -6px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.social a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.copyright{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
 }
