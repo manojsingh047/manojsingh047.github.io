@@ -1,6 +1,6 @@
 import "normalize.css";
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import "./style.css";
+import "./styles/style.css";
+import "./styles/unhide.css";
 
 const app = (() => {
   const init = () => {
@@ -15,7 +15,7 @@ const app = (() => {
   const initBGColorChange = () => {
     const appEle = document.getElementById("bg");
     const OPACITY_RANGE = {
-      MIN: 3000,
+      MIN: 2000,
       MAX: 8000
     };
     const COUNTER_ACTIONS = {

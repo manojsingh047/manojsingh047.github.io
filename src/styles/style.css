@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Audiowide|Montserrat:300,400&display=swap");
-
 html,
 body {
   height: 100%;
@@ -53,6 +51,7 @@ body {
   transition: 0.5s;
   position: relative;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 .social a:hover{
   color: rgba(255,255,255,1);
