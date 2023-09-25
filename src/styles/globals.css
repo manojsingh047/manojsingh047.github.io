@@ -13,8 +13,23 @@ body {
   font-family: "Audiowide", cursive, Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
-#app{
-  display: inherit;
+@keyframes animate-opacity {
+  0%{
+    opacity:0.3;
+  }
+  100%{
+    opacity:0.7;
+  }
+}
+
+#bg{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  animation: animate-opacity 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 #app {
   background: #040993;
@@ -28,11 +43,6 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-}
-#bg {
-  width: 100%;
-  height: 100%;
-  background: #000;
 }
 #details {
   color: #fff;
@@ -97,4 +107,3 @@ body {
     width: 90%;
   }
 }
-

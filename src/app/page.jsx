@@ -1,29 +1,7 @@
-'use client'
-
-import { useEffect, useState } from "react";
 import './../styles/globals.css';
-import { OPACITY_RANGE, COUNTER_ACTIONS, getOpacityValue, getValue, toggleCounterAction } from "../utils";
 export default function Page() {
-    const [opacity, setOpacity] = useState(1);
-    // useEffect(() => {
-    //     let floatNum = OPACITY_RANGE.MIN;
-    //     let counterAction = COUNTER_ACTIONS.INCREMENT;
-
-    //     setInterval(() => {
-    //         floatNum = getValue(counterAction, floatNum);
-
-    //         if (floatNum > OPACITY_RANGE.MAX || floatNum < OPACITY_RANGE.MIN) {
-    //             counterAction = toggleCounterAction(counterAction);
-    //         }
-    //         const opacityValue = getOpacityValue(floatNum);
-    //         setOpacity(opacityValue);
-    //     }, 100);
-
-    // }, []);
-
-    // console.log('rendering...');
     return (<section id="app">
-        <div id="bg" style={{ opacity }}></div>
+        <div id="bg"/>
         <div id="details">
             <div className="title">
                 <p id="name">Manoj Singh</p>
