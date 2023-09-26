@@ -13,7 +13,6 @@ export default function Page() {
                 <a href="https://github.com/manojsingh047" target="_blank">Github</a>
                 <a href="https://stackoverflow.com/users/6372797/manoj-negi" target="_blank">Stack</a>
                 <a href="mailto:manojsingh047@gmail.com" target="_blank">Mail</a>
-                <a href="../resume.pdf" target="_blank">Resume</a>
             </div>
             <div className="copyright light-font">
                 <p>
