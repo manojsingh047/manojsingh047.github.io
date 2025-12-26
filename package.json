@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
+    "@zoomus/websdk": "^2.16.0",
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^0.562.0",
     "next": "latest",
-    "@zoomus/websdk": "^2.16.0"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
