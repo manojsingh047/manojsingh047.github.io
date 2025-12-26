@@ -2,7 +2,9 @@
  * Voice Utility functions using Web Speech API.
  */
 
-export const isSpeechSupported = 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
+export const isSpeechSupported = () => 
+  typeof window !== 'undefined' && 
+  ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window);
 
 /**
  * Starts listening for voice commands.
@@ -10,7 +12,7 @@ export const isSpeechSupported = 'webkitSpeechRecognition' in window || 'SpeechR
  * @param {Function} onEnd - Callback when listening ends.
  */
 export const startListening = (onResult) => {
-  if (!isSpeechSupported) {
+  if (!isSpeechSupported()) {
     console.warn("Speech Recognition not supported.");
     return null;
   }
